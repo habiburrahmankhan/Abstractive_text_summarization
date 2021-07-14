@@ -1,7 +1,6 @@
 # Attention Visualizer
 
-This is a tool to visualize the distribution of attention in a text-based sequence-to-sequence task such as summarization. As you hover your mouse over the decoded words, the tool shows a heatmap of attention over the source words. A demo can be seen [here]() (scroll down to "Example Output" section).
-
+This is a tool to visualize the distribution of attention in a text-based sequence-to-sequence task such as summarization. As you hover your mouse over the decoded words, the tool shows a heatmap of attention over the source words. A demo can be seen [here](https://habiburrahmankhan.github.io/Abstractive_text_summarization/frontend/index.html) 
 ## To run
 
 To run the visualizer, run

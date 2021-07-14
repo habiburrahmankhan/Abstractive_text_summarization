@@ -1,7 +1,7 @@
 #  Abstractive Text Summarization
 ---
 
-## [demo Frontend]()
+## [demo Frontend](https://habiburrahmankhan.github.io/Abstractive_text_summarization/)
 
 ## Problems Statement 
 * There are two major problems with using Sequence-to-Sequence models for text summarization:
@@ -17,7 +17,7 @@
 * Source of the image : “Get To The Point: Summarization with Pointer-Generator Networks”: Abigail See, Peter J. Liu, Christopher D. Manning
  
 !["Information Source: “Get To The Point: Summarization with Pointer-Generator Networks”: Abigail See, Peter J. Liu, Christopher D. Manning
-"]()
+"](https://github.com/habiburrahmankhan/Abstractive_text_summarization/blob/main/articture.png)
 
 --- 
 
@@ -46,7 +46,7 @@ Also, since the number of Dailymail articles(2,19,000) is greater than the numbe
 * With this we create a vocabulary file which list the token(word) and its frequency over the dataset.
 
 
-[link of vocab file  ]()
+[link of vocab file  ](https://github.com/habiburrahmankhan/Abstractive_text_summarization/blob/main/vocab)
 
 Next, we convert the tokenized files into .bin(binary) files.
 This is done to enable better efficiency and speedup the training process.
@@ -54,7 +54,7 @@ We generate three files:
 1. Train.bin
 2. Valid.bin
 3. Test.bin
-[link of all three file  ]()
+
 ---
 ## Training & Validating 
 * The model was trained using Google Colaboratory on around 3,00,000 news articles.
@@ -62,21 +62,24 @@ We generate three files:
 * The model was validated on another 10,000 articles to check for overfitting.
 * The model was also tested on 10,000 articles.
 
-[Link of the Saved model ]()
+[Link of the Saved model  & generated summary ](https://drive.google.com/drive/u/5/folders/1lkhd8o2B_YMRu_gMvxGFCJKFxVN2FOia)
 
 
-![image of training ]()
+![image of training ](https://github.com/habiburrahmankhan/Abstractive_text_summarization/blob/main/visualisation_img/training_screen_shot.png)
 
 ### Training Loss Image 
-![img]()
+![img](https://github.com/habiburrahmankhan/Abstractive_text_summarization/blob/main/visualisation_img/Training_loss.png)
 
 ### Validation  Loss Image 
-![img]()
+![img](https://github.com/habiburrahmankhan/Abstractive_text_summarization/blob/main/visualisation_img/validation_loss.png)
 
 
 
 ---
 * chunked folder contain **train and test** binary file of 1000 articles each. 
+
+[link of all  file  ](https://github.com/habiburrahmankhan/Abstractive_text_summarization/tree/main/chunked)
+
 * frontend folder contain file related to frontend visvalisation 
 * visualisation_img folder contain screenshot taken during training 
 
@@ -106,7 +109,7 @@ for detail visit this file **ats_run_file.ipynb**
 ---
 
 ## Rough Score 
-![rough scrore]()
+![rough scrore](https://github.com/habiburrahmankhan/Abstractive_text_summarization/blob/main/visualisation_img/screenshot_of_roughmatrix.png)
 
 
 
