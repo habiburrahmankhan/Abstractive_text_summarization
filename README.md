@@ -27,7 +27,7 @@ These news articles belong to two prominent news agencies:
 * CNN
 * Dailymail
 
-![The source of the dataset is: ](www.tensorflow.org/datasets/catalog/cnn_dailymail)
+### [The source of the dataset is: ](www.tensorflow.org/datasets/catalog/cnn_dailymail)
 
 The distribution of the dataset will be as follows:
 * Testing: 10,000 articles.
@@ -62,7 +62,7 @@ We generate three files:
 * The model was validated on another 10,000 articles to check for overfitting.
 * The model was also tested on 10,000 articles.
 
-[Link of the Saved model  & generated summary ](https://drive.google.com/drive/u/5/folders/1lkhd8o2B_YMRu_gMvxGFCJKFxVN2FOia)
+#### [Link of the Saved model  & generated summary ](https://drive.google.com/drive/u/5/folders/1lkhd8o2B_YMRu_gMvxGFCJKFxVN2FOia)
 
 
 ![image of training ](https://github.com/habiburrahmankhan/Abstractive_text_summarization/blob/main/visualisation_img/training_screen_shot.png)
@@ -120,4 +120,4 @@ for detail visit this file **ats_run_file.ipynb**
 ## -----------Thank you For Reading -------------
 ----
 
-for any problem contact me [](https://hrkhan.in/)
+for any problem contact me [hrkhan](https://hrkhan.in/)
